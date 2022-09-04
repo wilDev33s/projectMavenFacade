@@ -8,7 +8,7 @@ public class Main {
 
         ImplementacionFacade implementacionFacade= new ImplementacionFacade();
         int result = implementacionFacade.SabermiNota(mapperEntrada());
-        System.out.println( "sunnota es :"+ result);
+        System.out.println( "sunnota es :"+ result );
 
     }
     public static NotasEntrada mapperEntrada(){
